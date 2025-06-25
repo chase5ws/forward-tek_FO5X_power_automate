@@ -47,7 +47,7 @@
 
 ### 實作範疇與流程
 
-![實作範疇](https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/7320191/txVCiVDJe9p3KfOa.png)
+![實作範疇](UML.pdf)
 
 - **Power Automate 流程：**
   1. 使用瀏覽器模擬用戶行為登入系統。

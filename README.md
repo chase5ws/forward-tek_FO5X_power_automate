@@ -1,9 +1,10 @@
 ![version](https://img.shields.io/badge/version-1.0-green)
-![license](https://img.shields.io/badge/license-MIT%20%2B%20Microsoft%20Power%20Automate-blue)
+![license](https://img.shields.io/badge/license-MIT%20%2B%20-blue)
 ![python](https://img.shields.io/badge/Python-3.8+-orange)
 ![pandas](https://img.shields.io/badge/Pandas-1.5.0-lightgrey)
 ![openpyxl](https://img.shields.io/badge/openpyxl-3.0.10-yellow)
-![powerautomate](https://img.shields.io/badge/Power%20Automate-Latest%20Version-blue)
+![powerautomate](https://img.shields.io/badge/Power%20Automate-2506-blue)
+![icon](asset/icon.png)
 
 ---
 

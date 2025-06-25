@@ -92,9 +92,9 @@ def save_to_excel_with_statistics(df, stats_df, output_file):
         print(f"保存 Excel 檔案失敗: {e}")
 
 def main():
-    # 固定檔案路徑
-    file_path = r"C:\Users\poyang.tseng\Downloads\weekreport.xlsx"
-    output_file = r"C:\Users\poyang.tseng\Downloads\processed_weekreport.xlsx"
+    # 讓使用者輸入檔案路徑
+    file_path = input("請輸入要處理的 Excel 檔案路徑（例如 C:\\Users\\user\\Downloads\\weekreport.xlsx）：\n")
+    output_file = input("請輸入處理後的 Excel 檔案儲存路徑（例如 C:\\Users\\user\\Downloads\\processed_weekreport.xlsx）：\n")
     
     # 解析數據
     processed_df = parse_data_from_excel(file_path)
@@ -108,8 +108,10 @@ def main():
         
         # 保存結果至 Excel
         save_to_excel_with_statistics(filtered_sorted_df, stats_df, output_file)
+        print(f"處理完成！結果已儲存至：{output_file}")
     else:
         print("處理失敗，請檢查數據格式或檔案內容。")
 
 if __name__ == "__main__":
     main()
+
